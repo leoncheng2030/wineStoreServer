@@ -1,0 +1,82 @@
+.login-icon-gray {
+	color: rgba(0, 0, 0, 0.25);
+}
+.login-validCode-img {
+	border: 1px solid var(--border-color-split);
+	cursor: pointer;
+	width: 100%;
+	height: 40px;
+}
+.login-wrapper{
+	width: 100vw;
+	height:100vh;
+	overflow: hidden;
+	background-color: #fff;
+	display: flex;
+	flex-direction: column;
+	background-size: cover;
+	background-position: center;
+	align-items: center;
+	background-image: url(/img/login_bg.png);
+}
+.login_config {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+.login-page{
+	flex: 1;
+	display: flex;
+	align-items: center;
+	width: 800px;
+	border-radius: 10px;
+	overflow: hidden;
+}
+.version{
+	height: 90px;
+	color: #fff;
+}
+/*background-image:linear-gradient(transparent, #000);*/
+.banner{
+	background: #00ff80;
+	width: 450px;
+	height: 450px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	overflow: hidden;
+}
+.login-form {
+	width: 450px;
+	background: #fff;
+	padding: 20px;
+	height: 450px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+.login-header h2 {
+	font-size: 24px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+@media (max-width: 1000px) {
+	.login_main {
+		width: 100%;
+		position: absolute;
+		left:0;
+		right:0;
+	}
+	.login-form {
+		width: 100%;
+		padding: 20px 40px;
+		top:15%
+	}
+	.logo_background{
+		padding-left:40px;
+	}
+	.login_background .version{
+		padding:0 20px;
+	}
+	.login_background .version p:first-child{
+		display: none;
+	}
+}
